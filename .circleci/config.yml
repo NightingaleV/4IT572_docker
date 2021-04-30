@@ -16,4 +16,4 @@ workflows:
   version: 2
   aws-cli:
     jobs:
-      - push-to-ect
+      - push-to-ecr
