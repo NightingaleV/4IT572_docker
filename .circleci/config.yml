@@ -13,7 +13,7 @@ jobs:
       - run: docker push $URL/devops:latest
 
 workflows:
-  version: 2
+  version: 2.1
   aws-cli:
     jobs:
       - push-to-ecr
